@@ -43,4 +43,4 @@ There were two issues here that diverged from the build guide. We installed all 
 
 6. Configuration
 
-A C file is used to configure the keyboard (https://github.com/qmk/qmk_firmware/blob/master/keyboards/torn/keymaps/default/keymap.c)[keymap]. This could be improved by adding a wrapper. Any alterations require compiling and flashing to the chip, which could complicate things though
+- A C file is used to configure the keyboard [keymap file](https://github.com/qmk/qmk_firmware/blob/master/keyboards/torn/keymaps/default/keymap.c). This could be improved by adding a wrapper. Any alterations require compiling and flashing to the chip, which could complicate things though
